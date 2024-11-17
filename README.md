@@ -22,3 +22,6 @@ Kövesd az alábbi lépéseket az alkalmazás futtatásához:
 Klónozd a projektet a helyi gépedre:
 ```bash
 git clone https://github.com/felhasznalo/MusicPlayerApp.git
+
+####
+szükés Vm modul :--module-path "C:\javafx-sdk-17\lib" --add-modules javafx.controls,javafx.fxml,javafx.media
