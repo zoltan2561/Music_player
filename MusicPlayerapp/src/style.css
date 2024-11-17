@@ -1,0 +1,70 @@
+.root {
+    -fx-background-color: #586cc0;
+    -fx-padding: 20px;
+    -fx-spacing: 10px;
+}
+
+/* Gombok stílusa */
+.button {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-padding: 8px 15px;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-border-width: 2px;
+}
+
+.button:pressed {
+    -fx-opacity: 0.8;
+}
+
+.play-button {
+    -fx-background-color: #4caf50;
+    -fx-border-color: #388e3c;
+}
+
+.pause-button {
+    -fx-background-color: #ffeb3b;
+    -fx-text-fill: black;
+    -fx-border-color: #fbc02d;
+}
+
+.stop-button {
+    -fx-background-color: #f44336;
+    -fx-border-color: #d32f2f;
+}
+
+.add-folder-button {
+    -fx-background-color: #2196f3;
+    -fx-border-color: #1976d2;
+}
+
+/* Hangerőszabályzó csúszka */
+.volume-slider {
+    -fx-control-inner-background: #3c3c3c;
+    -fx-track-color: #c41414;
+    -fx-thumb-color: #a8082e;
+    -fx-border-color: #5e5e5c;
+    -fx-border-radius: 3px;
+}
+
+/* Idővonal csúszka */
+.time-slider {
+    -fx-control-inner-background: #1e1e1e;
+    -fx-track-color: #5a5a5a;
+    -fx-thumb-color: #00bcd4;
+}
+
+/* Számláló szöveg */
+.time-label {
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 12px;
+}
+
+/* Volume felirat */
+.volume-label {
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
